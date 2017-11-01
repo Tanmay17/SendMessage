@@ -27,8 +27,8 @@ public class MainActivity extends AppCompatActivity {
         et1.addTextChangedListener(new TextWatcher() {
             @Override
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
-                String s=et1.getText().toString();
-                int len=s.length();
+                String string=et1.getText().toString();
+                int len=string.length();
                 tv.setText(len+"/160");
             }
 
